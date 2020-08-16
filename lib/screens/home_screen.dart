@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_web_news/helpers/responsive_helper.dart';
 import 'package:flutter_web_news/models/article_model.dart';
 import 'package:flutter_web_news/services/api_service.dart';
 import 'package:url_launcher/url_launcher.dart';

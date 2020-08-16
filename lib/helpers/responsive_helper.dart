@@ -47,7 +47,6 @@ double responsiveTitleHeight(MediaQueryData mediaQuery) {
   }
   return mediaQuery.size.width * 0.05;
 }
-}
 
 
 
