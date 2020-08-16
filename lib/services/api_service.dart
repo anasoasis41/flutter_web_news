@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 class APIService {
 
   final String _baseUrl = 'api.nytimes.com';
-  static const String API_KEY = 'dlGycMflAlDW0s3FuqNHA2BNcaj933AB';
+  static const String API_KEY = '<YOUR_API_KEY>';
 
   Future<List<Article>> fetchArticlesBySection(String section) async {
     Map<String, String> parameters = {
