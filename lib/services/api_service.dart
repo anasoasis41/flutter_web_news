@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter_web_news/models/article_model.dart';
 import 'package:http/http.dart' as http;
 
 
